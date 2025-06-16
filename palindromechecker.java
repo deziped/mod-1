@@ -4,7 +4,7 @@ public class palindromechecker {
 
 
     
-    /** Return the reversal of an integer, e.g., reverse(456) returns 654 */
+    /** checks for the reversal folling the highest digit */
     public static int reverse(int number) {
         int reversed = 0;
         while (number != 0) {
@@ -15,7 +15,7 @@ public class palindromechecker {
         return reversed;
     }
 
-    /** Return true if number is palindrome */
+    /** Returns true if number is palindrome */
     public static boolean isPalindrome(int number) {
         return number == reverse(number);
     }
