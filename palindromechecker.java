@@ -23,7 +23,7 @@ public class Exercise06_03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);      
         System.out.print("Enter a positive integer: ");
-        int number = input.nextInt()
+        int number = input.nextInt();
         if (isPalindrome(number)) {
             System.out.println(number + " is a palindrome");
         } else {
